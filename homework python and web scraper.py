@@ -96,7 +96,7 @@ print("Average Price for 4 star book = ", round(np.mean(books[books['Rating'] ==
 print("Average Price for 5 star book = ", round(np.mean(books[books['Rating'] == 5])['Price'], 2))
 
 # correlation 
-print("Correlation between price and raiting = ", books.corr()['Price']['Rating'])
+print("Correlation between price and rating = ", books.corr()['Price']['Rating'])
 
 # average rating 
 print("Average overall rating = ", round(np.mean(books['Rating']), 2))
